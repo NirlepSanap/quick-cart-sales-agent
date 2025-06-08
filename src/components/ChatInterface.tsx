@@ -68,6 +68,106 @@ const mockProducts: Product[] = [
     rating: 4.6,
     description: 'Adjustable aluminum laptop stand',
     inStock: true
+  },
+  {
+    id: '5',
+    name: 'Classic T-Shirt',
+    price: 24.99,
+    category: 'Clothing',
+    image: '/placeholder.svg',
+    rating: 4.3,
+    description: 'Comfortable cotton t-shirt in various colors',
+    inStock: true
+  },
+  {
+    id: '6',
+    name: 'Denim Jeans',
+    price: 69.99,
+    category: 'Clothing',
+    image: '/placeholder.svg',
+    rating: 4.7,
+    description: 'Premium quality denim jeans with perfect fit',
+    inStock: true
+  },
+  {
+    id: '7',
+    name: 'Summer Dress',
+    price: 89.99,
+    category: 'Clothing',
+    image: '/placeholder.svg',
+    rating: 4.4,
+    description: 'Elegant floral summer dress for any occasion',
+    inStock: false
+  },
+  {
+    id: '8',
+    name: 'Running Shoes',
+    price: 129.99,
+    category: 'Clothing',
+    image: '/placeholder.svg',
+    rating: 4.8,
+    description: 'Lightweight running shoes with superior comfort',
+    inStock: true
+  },
+  {
+    id: '9',
+    name: 'Winter Jacket',
+    price: 149.99,
+    category: 'Clothing',
+    image: '/placeholder.svg',
+    rating: 4.6,
+    description: 'Warm and stylish winter jacket with waterproof material',
+    inStock: true
+  },
+  {
+    id: '10',
+    name: 'Potted Plant Set',
+    price: 34.99,
+    category: 'Home & Garden',
+    image: '/placeholder.svg',
+    rating: 4.5,
+    description: 'Beautiful set of 3 indoor plants in decorative pots',
+    inStock: true
+  },
+  {
+    id: '11',
+    name: 'Garden Tools Kit',
+    price: 79.99,
+    category: 'Home & Garden',
+    image: '/placeholder.svg',
+    rating: 4.7,
+    description: 'Complete gardening tools set with carrying case',
+    inStock: true
+  },
+  {
+    id: '12',
+    name: 'Decorative Lamp',
+    price: 119.99,
+    category: 'Home & Garden',
+    image: '/placeholder.svg',
+    rating: 4.4,
+    description: 'Modern table lamp with adjustable brightness',
+    inStock: false
+  },
+  {
+    id: '13',
+    name: 'Throw Pillow Set',
+    price: 39.99,
+    category: 'Home & Garden',
+    image: '/placeholder.svg',
+    rating: 4.3,
+    description: 'Set of 2 decorative throw pillows in neutral colors',
+    inStock: true
+  },
+  {
+    id: '14',
+    name: 'Wall Art Canvas',
+    price: 59.99,
+    category: 'Home & Garden',
+    image: '/placeholder.svg',
+    rating: 4.6,
+    description: 'Abstract wall art canvas for modern home decor',
+    inStock: true
   }
 ];
 
