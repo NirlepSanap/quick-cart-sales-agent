@@ -84,7 +84,7 @@ export const ChatInterface = () => {
   const [isTyping, setIsTyping] = useState(false);
   const [showFilters, setShowFilters] = useState(false);
   const [filters, setFilters] = useState({
-    category: '',
+    category: 'all',
     minPrice: '',
     maxPrice: '',
     inStock: false
@@ -105,7 +105,7 @@ export const ChatInterface = () => {
                           product.description.toLowerCase().includes(query.toLowerCase()) ||
                           product.category.toLowerCase().includes(query.toLowerCase());
       
-      const matchesCategory = !filters.category || product.category === filters.category;
+      const matchesCategory = filters.category === 'all' || product.category === filters.category;
       const matchesMinPrice = !filters.minPrice || product.price >= parseFloat(filters.minPrice);
       const matchesMaxPrice = !filters.maxPrice || product.price <= parseFloat(filters.maxPrice);
       const matchesStock = !filters.inStock || product.inStock;

@@ -26,7 +26,7 @@ export const FilterPanel: React.FC<FilterPanelProps> = ({ filters, setFilters, o
 
   const handleClearFilters = () => {
     setFilters({
-      category: '',
+      category: 'all',
       minPrice: '',
       maxPrice: '',
       inStock: false
@@ -58,7 +58,7 @@ export const FilterPanel: React.FC<FilterPanelProps> = ({ filters, setFilters, o
                 <SelectValue placeholder="All categories" />
               </SelectTrigger>
               <SelectContent>
-                <SelectItem value="">All categories</SelectItem>
+                <SelectItem value="all">All categories</SelectItem>
                 {categories.map((category) => (
                   <SelectItem key={category} value={category}>
                     {category}
