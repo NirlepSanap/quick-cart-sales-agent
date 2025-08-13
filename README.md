@@ -214,13 +214,6 @@ if (lowerMessage.includes('your-keyword')) {
 2. Add products with the new category to `mockProducts`
 3. Update search logic if needed
 
-## 🚀 Deployment
-
-### Development Deployment (Lovable)
-```bash
-# Already configured for Lovable platform
-# Simply visit: https://lovable.dev/projects/9bac6eee-fbb9-45d3-a7bc-58d8c1c31692
-```
 
 ### Production Deployment
 ```bash
@@ -283,7 +276,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 🙏 Acknowledgments
 
-- **Lovable**: Cloud development platform
 - **shadcn/ui**: Beautiful and accessible UI components
 - **Radix UI**: Primitive component library
 - **Tailwind CSS**: Utility-first CSS framework
@@ -295,9 +287,3 @@ For support and questions:
 - 📧 **Email**: [your-email@example.com]
 - 🐛 **Issues**: [GitHub Issues](https://github.com/your-username/shopping-assistant/issues)
 - 💬 **Discussions**: [GitHub Discussions](https://github.com/your-username/shopping-assistant/discussions)
-
----
-
-<div align="center">
-  <strong>Built with ❤️ using modern web technologies</strong>
-</div>
